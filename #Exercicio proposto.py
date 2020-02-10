@@ -1,4 +1,6 @@
 #Exercicio1
+#conversão em intiro
+#usando: try and except, para conseguir testar o sucesso
 
 num1 = input('Digite um número: ')
 num2 = input('Digite outro número: ')
@@ -12,9 +14,9 @@ try:
     if divnum1 == 0 and divnum2 == 0:
         print('Os dois números são pares')
     elif divnum1 == 0:
-        print('Somente o Número 1 é par')
+        print(f'Somente o {num1} é par')
     elif divnum2 == 0:
-        print('Somente o número 2 é par')
+        print(f'Somente o {num2} é par')
     else:
         print('Nenhum número é PAR')
 
