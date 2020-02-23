@@ -14,21 +14,35 @@ def mult(a, b):
     mult = a * b
     print(mult)
 
-print('para fazermos uma conta, entre com dois numeros e um sinal.')
-a = float(input('entre com o primeiro numero: '))
-op = str(input('entre com o sinal da operação: '))
-b = float(input('entre com o segundo numero:'))
+print()
+print('para fazermos uma conta, entre com dois numeros e um operador.')
+print('para sair, digite break no operador')
 
-if op == '+':
-    soma(a, b)
-elif op == '-':
-    subtr(a, b)
-elif op == '*':
-    mult(a, b)
-elif op == '/':
-    div(a, b)
-else:
-    print('infelizmente só sei fazer as contas básicas')
+while True:
+    print()
+    
+    a = input('entre com o primeiro numero: ')
+    b = input('entre com o segundo numero:')
+    op = input('entre com o sinal da operação: ')
+
+    if not a.isnumeric() or not b.isnumeric():
+        print('Você precisa digitar um numero')
+        continue
+    a = int(a)
+    b = int(b)
+
+    if op == '+':
+        soma(a, b)
+    elif op == '-':
+        subtr(a, b)
+    elif op == '*':
+        mult(a, b)
+    elif op == '/':
+        div(a, b)
+    elif op == 'break':
+        break
+    else:
+        print('infelizmente só sei fazer as contas básicas')
     
 
 
