@@ -1,4 +1,6 @@
-#  -- Python -- #  
+# Nesse Repositório você encontra o Básico 
+
+#  -- Python
     Exercícios feito em Python3. 
     São Desafios Básicos, mas com grande desafio Lógico
 
@@ -17,6 +19,6 @@
     Pretendo começar um projeto de Django,
     para quem usa VScode, recomendo instalar a extenção do Django.
 
-# HTML
+# -- HTML
    
    O Básico de HTML, acompanhe meu desenvolvimento em programação
