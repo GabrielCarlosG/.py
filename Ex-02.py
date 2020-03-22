@@ -1,14 +1,15 @@
-hora = input('Me informe a hora, sem os minutos:  ')
+name = input('Me informe o seu primeiro nome: ').strip()
 
-try:
-    hora = int(hora)
-    if hora >= 0 and hora <= 11:
-        print('Bom dia!')
-    elif hora <= 17:
-        print('Boa Tarde!')
-    elif hora <= 23:
-        print('Boa noite!')
-    else:
-        print('Algo está errado.')
-except: #expression as identifier:
-    print('não posso te ajudar')
+letters = len(name)
+
+if letters <= 4:
+    print('seu nome é curto')
+
+elif letters <= 6:
+    print('Seu nome é normal')
+
+elif letters > 6:
+    print('Seu nome é muito GRANDE') 
+    
+else:
+    print('Deu errado')
