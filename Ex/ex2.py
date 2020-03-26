@@ -1,5 +1,16 @@
-n1 = float(input('digite a primeira a nota: '))
-n2 = float(input('digite a segunda nota: '))
+def conferter_numero(valor):
+    try:
+        valor = int(valor)
+        return valor
+    except ValueError:
+        try:
+            valor = float(valor)
+            return valor
+        except:
+            pass
+
+n1 = conferter_numero(input('digite a primeira a nota: '))
+n2 = conferter_numero(input('digite a segunda nota: '))
 
 media = (n1 + n2) / 2
 if n1 >= 6:

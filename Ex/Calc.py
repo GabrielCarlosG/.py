@@ -1,3 +1,14 @@
+def conferter_numero(valor):
+    try:
+        valor = int(valor)
+        return valor
+    except ValueError:
+        try:
+            valor = float(valor)
+            return valor
+        except:
+            pass
+
 def soma(a, b):
     soma = a + b
     print(soma)
@@ -28,8 +39,8 @@ while True:
     if not a.isnumeric() or not b.isnumeric():
         print('Você precisa digitar um numero')
         continue
-    a = int(a)
-    b = int(b)
+    a = conferter_numero(a)
+    b = conferter_numero(b)
 
     if op == '+':
         soma(a, b)
@@ -43,6 +54,3 @@ while True:
         break
     else:
         print('infelizmente só sei fazer as contas básicas')
-    
-
-
