@@ -1,5 +1,5 @@
 #Exercicio1
-#conversão em intiro
+#conversão em inteiro 
 #usando: try and except, para conseguir testar o sucesso
 
 num1 = input('Digite um número: ')
