@@ -1,7 +1,12 @@
-from validador.func import validate
+import validador
 import re
 
 
-cnpj = '00.516.974/0001-74'
+cnpj = input('Digite seu CNPJ:  ')
+
 clean_cnpj = re.sub(r'[^0-9]','', cnpj)
-print(validate(cnpj),clean_cnpj)
+
+if validador.func.validate(cnpj) == clean_cnpj:
+    print(f'O CNPJ: {cnpj} é válido')
+else: 
+    print(f'O CNPJ: {cnpj} é inválido')
