@@ -3,6 +3,7 @@ import re
 
 def validate(cnpj):
     cnpj = remove_character(cnpj)
+    cnpj += str(digits(cnpj))
     return cnpj
     
 
