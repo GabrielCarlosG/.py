@@ -1,5 +1,5 @@
 import funcao
-lista_de_tarefas = ['do', 'dudu', 'edu']
+lista_de_tarefas = []
 desfazer = []
 
 sair = 'N'
