@@ -1,2 +1,0 @@
-import validate_generator
-
