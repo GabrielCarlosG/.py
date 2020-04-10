@@ -9,12 +9,10 @@ def validate(cnpj):
         return False
 
     try:
-        new_cnpj = remove_character(cnpj)
         cnpj = remove_character(cnpj)
         cnpj += str(digits(cnpj))
         cnpj += str(last_digit(cnpj))
-        if cnpj == new_cnpj:
-            return True
+        return cnpj
     except:
         return False
     
