@@ -25,8 +25,7 @@ Developer: Carlos Gabriel Gomes Amorim<br>
 
 # -- DJANGO
     
-    Pretendo começar um projeto de Django,
-    para quem usa VScode, recomendo instalar a extenção do Django.
+    projeto de Django, para quem usa VScode, recomendo instalar a extenção do Django.
 
 # -- HTML
    
