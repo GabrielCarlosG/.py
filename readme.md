@@ -23,10 +23,6 @@
     
     projeto de Django, para quem usa VScode, recomendo instalar a extenção do Django.
 
-# -- HTML
-   
-   [O Básico de HTML](https://github.com/GabrielCarlosG/.py/blob/master/Html_Css/escopo.html), acompanhe meu desenvolvimento em programação
-
 Country: Brasil<br>
 State: Pernambuco<br>
 Developer: Carlos Gabriel Gomes Amorim<br>
