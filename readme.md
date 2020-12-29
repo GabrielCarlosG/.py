@@ -6,7 +6,7 @@ Developer: Carlos Gabriel Gomes Amorim<br>
 
 #  -- Python
     Exercícios feito em Python3. 
-    São Desafios Básicos, mas com grande desafio Lógico
+    São Exercícios Básicos, mas com grande desafio Lógico
 
     Desafios:
 [um validador de CPF](https://github.com/GabrielCarlosG/.py/blob/master/Aula_Python/validacpf.py)
